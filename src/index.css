@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(180, 20%, 50%);
+  background-color: hsl(38, 38%, 62%);
 }
 
 code {
@@ -48,4 +48,8 @@ button {
   margin: 0;
   padding: 0;
   background-color: transparent;
+}
+
+.avatar {
+  
 }
