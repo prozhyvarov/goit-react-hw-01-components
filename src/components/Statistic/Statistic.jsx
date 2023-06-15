@@ -36,6 +36,7 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     })
   ).isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Statistics;
