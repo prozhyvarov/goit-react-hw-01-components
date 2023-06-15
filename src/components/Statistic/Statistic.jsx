@@ -9,10 +9,10 @@ import {
   Percentage,
 } from './Statistic.styled';
 
-const Statistics = ({ stats }) => {
+const Statistics = ({ stats, title }) => {
   return (
     <Section>
-      <Title>Upload stats</Title>
+      {title && <Title>Upload stats</Title>}
       <StatList>
         {stats.map(stat => (
           <StatItem
